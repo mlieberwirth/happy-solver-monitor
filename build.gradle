@@ -24,6 +24,10 @@ dependencyManagement {
     }
 }
 
+bootRun {
+   jvmArgs = ["-Dspring.cloud.config.profile=local", "-Dspring.profiles.active=local"]
+}
+
 dependencies {       
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'    
     compile group: 'de.codecentric', name: 'spring-boot-admin-starter-server', version: "${springAdminVersion}"

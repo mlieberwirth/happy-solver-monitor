@@ -26,13 +26,11 @@ after that a executable jar is under /build/libs/. Run it with
 
 ### With bash
 
-Execute ``./build-and-run.sh`` in folder run-local. Relevant application.yml is in same folder.
+Execute ``./build-copy.sh && ./run.sh`` in folder run-local. Relevant application.yml is in same folder.
 
 ## Open UI
 If the server is running for example on localhost with port 8283 you can see all registered client-server on
 
     http://localhost:8283/#/applications
 
-# TODO
-- enable actuator to see CPU and RAM
     
