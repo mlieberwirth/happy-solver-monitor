@@ -33,4 +33,5 @@ If the server is running for example on localhost with port 8283 you can see all
 
     http://localhost:8283/#/applications
 
-    
+## CI
+See [Travis CI](https://travis-ci.org/mlieberwirth/happy-solver-agent?utm_medium=notification&utm_source=github_status)
