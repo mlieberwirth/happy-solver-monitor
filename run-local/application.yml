@@ -15,6 +15,7 @@ spring:
 # LOGGING #
 ###########
 logging:
+  file: logfile-monitor.log  
   level:
     root: INFO
     
