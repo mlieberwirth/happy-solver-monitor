@@ -1,5 +1,7 @@
 # Happy-Solver-Monitor
 
+DEPRECATED USE https://gitlab.com/happy-solver
+
 Is a [Spring-Admin-Server](https://github.com/codecentric/spring-boot-admin) for monitoring of the Happy-Solver-Server.
 
 ## Preconditions
